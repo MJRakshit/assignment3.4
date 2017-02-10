@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.monojit.login.MainActivity"
+    android:orientation="vertical"
+    android:background="#01DFD7">
+
+
+    <TextView
+        android:text="LoginScreen"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/textView"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:gravity="clip_vertical"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="130dp"
+        android:layout_height="60dp"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:background="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:hint="Email"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_margin="10dp"
+        android:background="#ffffff"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:hint="Password"/>
+
+    <Button
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:onClick="goToDashboard"/>
+
+    <TextView
+        android:text="Not a Member ? sign up now"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/textView2"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:clickable="true" />
+</LinearLayout>
